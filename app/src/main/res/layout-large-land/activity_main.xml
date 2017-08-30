@@ -10,28 +10,32 @@
     android:paddingTop="@dimen/activity_vertical_margin">
 
     <TextView
-
-
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="65dp"
+        android:layout_marginTop="48dp"
         android:text="@string/app_saludo"
-        android:textSize="@dimen/SaludoTablet"
         android:textColor="#ffffff"
+        android:textSize="@dimen/saludo"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="242dp"
+        android:layout_marginEnd="242dp" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="142dp"
+        android:layout_marginStart="142dp"
+        android:background="@color/colorBoton"
         android:clickable="true"
         android:contextClickable="false"
         android:text="@string/button_txt"
         android:textColor="#ffffff"
-        android:textSize="@dimen/btn_text"
-        android:layout_marginTop="187dp"
-        android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true" />
+        android:textSize="@dimen/btn_text" />
 </RelativeLayout>

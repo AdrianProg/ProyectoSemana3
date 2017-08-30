@@ -2,7 +2,6 @@
 <resources>
     <dimen name="activity_horizontal_margin">10dp</dimen>
     <dimen name="activity_vertical_margin">10dp</dimen>
-    <dimen name="Saludo">40dp</dimen>
-    <dimen name="SaludoTablet">100dp</dimen>
+    <dimen name="saludo">40dp</dimen>
     <dimen name="btn_text">15dp</dimen>
 </resources>

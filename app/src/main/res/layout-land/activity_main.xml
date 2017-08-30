@@ -13,10 +13,9 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="35dp"
         android:text="@string/app_saludo"
-        android:textSize="@dimen/Saludo"
         android:textColor="#ffffff"
+        android:textSize="@dimen/saludo"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
@@ -24,12 +23,13 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@color/colorBoton"
         android:clickable="true"
         android:contextClickable="false"
         android:text="@string/button_txt"
         android:textColor="#ffffff"
-        android:textSize="@dimen/btn_text"
-        android:layout_marginTop="17dp"
-        android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true" />
+        android:textSize="@dimen/btn_text" />
 </RelativeLayout>
